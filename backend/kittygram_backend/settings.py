@@ -7,7 +7,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 load_dotenv()
 
-SECRET_KEY = os.getenv('DJANGO_SECRET_KEY', default='')
+SECRET_KEY = os.getenv('DJANGO_SECRET_KEY', default='default')
 
 DEBUG = False
 
